@@ -1,0 +1,17 @@
+{
+    "name": "vison-frontend",
+    "version": "1.0.0",
+    "description": "Vison - Multimedia Search Engine Frontend",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "ejs": "^3.1.9",
+        "multer": "^1.4.5-lts.1",
+        "http-proxy-middleware": "^2.0.6",
+        "morgan": "^1.10.0"
+    }
+}
